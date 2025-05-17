@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url(bg.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center;
+    background-size: max(1200px), 100vw;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vh;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero >:first-child {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero >:nth-child(2) {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero >:nth-child(3) {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+input{
+    padding: 8px;
+}
+.btn{
+font-weight: bold;
+    padding: 3px 8px;
+    background-color: whitesmoke;
+}
+.btn-red{
+background-color: red;
+color: whitesmoke;
+font-size: 15px;
+padding: 6px 5px;
+border-radius: 4px;
+
+}
+.main input{
+    font-size:10px;
+    padding:10px ;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px whitesmoke solid;
+    font-weight: 900;
+}
+.btn-red-sm{
+background-color: red;
+color: whitesmoke;
+}
+.separation{
+    height: 5px;
+    background-color: grey;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%/100px 100px;
+    
+}
